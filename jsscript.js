@@ -97,6 +97,20 @@
 
 // console.log(seriesDB);
 
+// SHARTLI OPERATORLAR
+
+// const svetafor =''
+
+// if(svetafor == 'red') {
+//     console.log('kutib turing')
+// } else if(svetafor == 'yellow') {
+//     console.log('tayyorlaning')
+// } else if(svetafor == 'green') {
+//     console.log("O'tishingiz mumkin")
+// } else {
+//     console.log("Bizning o'zbekistonda svet yo'q");
+// }
+
 
 
 
