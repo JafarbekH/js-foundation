@@ -62,6 +62,17 @@
 
 
 
+// 5-dars WINDOW INTERPOLATSIYA
+
+// const isAccess = alert("Siz insonmisiz?")
+
+// ok - bosilsa true qaytaradi
+// cancel = bosilsa false qaytaradi
+
+
+// const name = prompt("What is your name?")
+// console.log(name); 
+
 
 
 
