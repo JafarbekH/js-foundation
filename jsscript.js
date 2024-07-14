@@ -113,4 +113,50 @@
 
 
 
+//9-dars function turlari
+
+//function decloration
+// function showHelloWorld() {
+//     console.log("Hello World")
+// }
+
+// function showHelloToUser(user) {
+//     console.log(`Hello, ${user}`)
+// }
+
+// showHelloToUser('Jafar')
+
+// function calc(a, b) {
+//     console.log(a + b);
+//     console.log(a - b);
+//     console.log(a * b);
+//     console.log(a / b);
+// }
+
+// calc(9, 7)
+
+// function calc(a, b) {
+//     return a + b
+// }
+
+// const ans = calc(2, 3)
+// console.log(ans);
+
+//function expression 
+// showHelloWorld()
+
+// const showHelloWorld = function() {
+//     console.log("Hello world");
+// } 
+
+
+// arrow function 
+// const calc = (a, b) => a + b
+
+
+// const ansCalc = calc(2, 3)
+// console.log(ansCalc);
+
+
+
 
