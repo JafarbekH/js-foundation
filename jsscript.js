@@ -157,6 +157,15 @@
 // const ansCalc = calc(2, 3)
 // console.log(ansCalc);
 
+// Metodlar
+
+//String methods
+const text = "Hello World!"
+
+// console.log(text.length); // tex ning uzunlgini aniqlab sonda chiqarib beradi
+// console.log(text.charAt(n)); textning n-1 chi elemntini qaytaradi 
+
+
 
 
 
