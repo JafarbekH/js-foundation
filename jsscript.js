@@ -160,10 +160,30 @@
 // Metodlar
 
 //String methods
-const text = "Hello World!"
+// const text = "Hello World!"
 
 // console.log(text.length); // tex ning uzunlgini aniqlab sonda chiqarib beradi
 // console.log(text.charAt(n)); textning n-1 chi elemntini qaytaradi 
+
+
+//***********  Callback and Object **************//
+
+// callback bu bitta funksiya bajarilgandan so'ng keyin ishlaydigan function
+
+// const firstLog = () => {
+//     setTimeout(() => {
+//         console.log(1);
+//     }, 2000);
+// }
+
+// const secondLog = () => {
+//     console.log(2);
+// }
+
+// firstLog()
+// secondLog()
+
+
 
 
 
