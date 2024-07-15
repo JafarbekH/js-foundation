@@ -206,18 +206,30 @@ const person = {
     hobby: {
         sport: "Footbal",
         games: "UFC"
+    },
+    sayHello: function() {
+        console.log('AAA');
     }
 }
 
-for (let key in person) {
-    if(typeof person[key] === "object") {
-        for (let i in person[key]) {
-            console.log(`Property: ${i}, Value: ${person[key][i]}`);
-        }
-    }else {
-        console.log(`Property: ${key}, Value: ${person[key]}`);
-    }
-}
+const {name, age, job, hobby, sayHello} = person
+
+sayHello()
+
+// console.log((Object.keys(person)).length)
+
+// for in - faqatobject uchun
+//for - in faqat massiv uchun
+
+// for (let key in person) {
+//     if(typeof person[key] === "object") {
+//         for (let i in person[key]) {
+//             console.log(`Property: ${i}, Value: ${person[key][i]}`);
+//         }
+//     }else {
+//         console.log(`Property: ${key}, Value: ${person[key]}`);
+//     }
+// }
 
 // console.log(person.hobby.sport);
 
