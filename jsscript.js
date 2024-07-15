@@ -197,6 +197,31 @@
 // greeting(call)
 
 
+//Object va diskturikzatsiya 
+
+const person = {
+    name: "Ja'far",
+    age: 20,
+    job: "Fullstack developer",
+    hobby: {
+        sport: "Footbal",
+        games: "UFC"
+    }
+}
+
+for (let key in person) {
+    if(typeof person[key] === "object") {
+        for (let i in person[key]) {
+            console.log(`Property: ${i}, Value: ${person[key][i]}`);
+        }
+    }else {
+        console.log(`Property: ${key}, Value: ${person[key]}`);
+    }
+}
+
+// console.log(person.hobby.sport);
+
+
 
 
 
