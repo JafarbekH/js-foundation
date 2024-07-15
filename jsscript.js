@@ -238,17 +238,85 @@
 
 //************** Massivlar **************//
 
-const colors = ['red', 'blue', 'green', 'blue', 'brown'];
+// const colors = ['red', 'blue', 'green', 'blue', 'brown'];
 
-console.log("Massiv uzunligi:", colors.length); 
-console.log("Index yordamida element olish:", colors[2]); 
-// console.log("Masiv oxiridagi elementni o'chirish", colors.pop()); 
-console.log("Massiv ociriga elemnt qo'shish", colors.push('Sariq'));
+// console.log("Massiv uzunligi:", colors.length); 
+// console.log("Index yordamida element olish:", colors[2]); 
+// // console.log("Masiv oxiridagi elementni o'chirish", colors.pop()); 
+// console.log("Massiv ociriga elemnt qo'shish", colors.push('Sariq'));
 
-console.log(colors);
+// console.log(colors);
 
 //pop va push 
 // pop -bu massiv oxiridagi elementni o'chirish
+
+
+
+
+
+
+//******************* Objectni clonlash ******************/
+
+// let a = 10,
+// b = a;
+
+// b = b + 10
+
+// console.log(a)
+// console.log(b)
+
+// object 
+
+const person = {
+    name: "Ja'far",
+    age: 20,
+    hobbies: {
+        sport: "Football",
+        games: "UFC"
+    }
+}
+
+// const seconPerson = person 
+
+// seconPerson.name = 'Dovud'
+// seconPerson.age = 'endi dunyoga keladi nasib...'
+
+// console.log(person)
+
+// #1 Intteratsiyasi 
+// const copyObj = (obj) => {
+//     const clone = {}
+
+//     for (let key in obj) {
+//         clone[key] = obj[key]
+//     }
+
+//     return clone
+// } 
+
+// const secondPerson = copyObj(person);
+// secondPerson.name = 'Dovud'
+// secondPerson.age = 'Endi dunyoga keladi nasib...'
+// console.log(secondPerson);
+// console.log(person);
+
+
+// #2 Object assign 
+// const secondPerson = Object.assign({isMarried: false}, person)
+
+// secondPerson.name = 'Azik'
+// secondPerson.age = 19 
+
+// console.log(secondPerson)
+// console.log(person)
+
+// #3 Spread 
+// const secondPerson = {...person, isMarried: false}
+
+// secondPerson.name = 'Demir'
+// secondPerson.age = 18
+
+// console.log(secondPerson)
 
 
 
