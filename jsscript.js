@@ -185,6 +185,19 @@
 
 
 
+// function greeting(callback) {
+//     console.log('Hello students!');
+//     callback()
+// }
+
+// function call() {
+//     console.log('Are you ready today?');
+// } 
+ 
+// greeting(call)
+
+
+
 
 
 
