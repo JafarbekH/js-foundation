@@ -199,22 +199,22 @@
 
 //Object va diskturikzatsiya 
 
-const person = {
-    name: "Ja'far",
-    age: 20,
-    job: "Fullstack developer",
-    hobby: {
-        sport: "Footbal",
-        games: "UFC"
-    },
-    sayHello: function() {
-        console.log('AAA');
-    }
-}
+// const person = {
+//     name: "Ja'far",
+//     age: 20,
+//     job: "Fullstack developer",
+//     hobby: {
+//         sport: "Footbal",
+//         games: "UFC"
+//     },
+//     sayHello: function() {
+//         console.log('AAA');
+//     }
+// }
 
-const {name, age, job, hobby, sayHello} = person
+// const {name, age, job, hobby, sayHello} = person
 
-sayHello()
+// sayHello()
 
 // console.log((Object.keys(person)).length)
 
@@ -233,6 +233,22 @@ sayHello()
 
 // console.log(person.hobby.sport);
 
+
+
+
+//************** Massivlar **************//
+
+const colors = ['red', 'blue', 'green', 'blue', 'brown'];
+
+console.log("Massiv uzunligi:", colors.length); 
+console.log("Index yordamida element olish:", colors[2]); 
+// console.log("Masiv oxiridagi elementni o'chirish", colors.pop()); 
+console.log("Massiv ociriga elemnt qo'shish", colors.push('Sariq'));
+
+console.log(colors);
+
+//pop va push 
+// pop -bu massiv oxiridagi elementni o'chirish
 
 
 
