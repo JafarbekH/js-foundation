@@ -267,14 +267,14 @@
 
 // object 
 
-const person = {
-    name: "Ja'far",
-    age: 20,
-    hobbies: {
-        sport: "Football",
-        games: "UFC"
-    }
-}
+// const person = {
+//     name: "Ja'far",
+//     age: 20,
+//     hobbies: {
+//         sport: "Football",
+//         games: "UFC"
+//     }
+// }
 
 // const seconPerson = person 
 
@@ -317,6 +317,31 @@ const person = {
 // secondPerson.age = 18
 
 // console.log(secondPerson)
+
+
+
+// function Person(firstName, lastName) {
+//     this.firstName = firstName
+//     this.lastName = lastName
+//     this.isHuman = true
+//     this.greetinig = function() {
+//         console.log(this)
+//     }
+// }
+
+// const firstPerson = new Person("Jafar", "Zokirov")
+
+// console.log(firstPerson.greetinig());
+
+
+
+
+
+
+
+
+
+
 
 
 
