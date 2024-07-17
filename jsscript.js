@@ -337,20 +337,25 @@
 
 // JSON va AJAX
 
-const person = {
-    name: "Ja'far",
-    age: 20,
-    hobbies: {
-        sporty: "Basletball",
-        games: "PUBG"
-    }
-}
+// const person = {
+//     name: "Ja'far",
+//     age: 20,
+//     hobbies: {
+//         sporty: "Basletball",
+//         games: "PUBG"
+//     }
+// }
 
-const objToJson = JSON.stringify(person)
+// const objToJson = JSON.stringify(person)
 
-const jsonToObj = JSON.parse(objToJson)
+// const jsonToObj = JSON.parse(objToJson)
 
-console.log(jsonToObj);
+// const clone = JSON.parse(JSON.stringify(person))
+
+// clone.hobbies.sporty = "BOKS"
+
+// console.log(person);
+// console.log(clone);
 
 
 
