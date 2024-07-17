@@ -357,9 +357,26 @@
 // console.log(person);
 // console.log(clone);
 
+const statusFriend = 'success'
 
+const request = new Promise((resolve, reject) => {
+    if(statusFriend === 'success') {
+        resolve()
+    } else {
+        reject()
+    }
+})
 
-
+request
+    .then(() => {
+        console.log("Do'stim yetib keldi")
+    })
+    .catch(() => {
+        console.log("U yetib kelolmadi")
+    })
+    .finally(() => {
+        console.log("Bumday bo'lishi aniq edi")
+    })
 
 
 
