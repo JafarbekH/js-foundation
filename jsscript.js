@@ -335,6 +335,25 @@
 
 
 
+// JSON va AJAX
+
+const person = {
+    name: "Ja'far",
+    age: 20,
+    hobbies: {
+        sporty: "Basletball",
+        games: "PUBG"
+    }
+}
+
+const objToJson = JSON.stringify(person)
+
+const jsonToObj = JSON.parse(objToJson)
+
+console.log(jsonToObj);
+
+
+
 
 
 
